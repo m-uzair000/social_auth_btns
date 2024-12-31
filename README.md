@@ -24,4 +24,4 @@ Add the `social_auth_btns` dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  social_auth_btns: ^0.1.0
+  social_auth_btns: ^0.1.1
