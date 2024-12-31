@@ -3,8 +3,8 @@ description: "A Flutter package for customizable social authentication buttons w
 version: 0.1.0
 sdk: flutter
 
-homepage: https://github.com/m-uzair000/social-btns-package
-repository: https://github.com/m-uzair000/social-btns-package
+homepage: https://github.com/m-uzair000/social_auth_btns
+repository: https://github.com/m-uzair000/social_auth_btns
 
 environment:
   sdk: ">=3.5.4 <4.0.0"
