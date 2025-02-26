@@ -3,6 +3,7 @@ enum Social {
   google,
   facebook,
   apple,
+  twitter
 }
 
 class SocialButtonModel {
@@ -11,6 +12,7 @@ class SocialButtonModel {
   final String svgIconPath;
   final Color color;
   final Color textColor;
+  Color? iconColor;
 
   SocialButtonModel({
     required this.type,
@@ -18,5 +20,6 @@ class SocialButtonModel {
     required this.svgIconPath,
     required this.color,
     required this.textColor,
+    this.iconColor
   });
 }
