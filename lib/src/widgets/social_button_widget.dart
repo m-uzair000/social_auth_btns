@@ -37,13 +37,13 @@ class SocialButtonWidget extends StatelessWidget {
   String _getSvgIconPath(Social social) {
     switch (social) {
       case Social.google:
-        return 'assets/icons/google.svg';
+        return 'assets/social/google.svg';
       case Social.facebook:
-        return 'assets/icons/facebook.svg';
+        return 'assets/social/facebook.svg';
       case Social.twitter:
-        return 'assets/icons/twitter.svg';
+        return 'assets/social/twitter.svg';
       case Social.apple:
-        return 'assets/icons/apple.svg';
+        return 'assets/social/apple.svg';
     }
   }
 
