@@ -1,7 +1,6 @@
 name: social_auth_btns
-description: "A Flutter package for customizable social authentication buttons with SVG icons."
-version: 0.1.3
-sdk: flutter
+description: "A Flutter package for customizable authentication buttons with SVG icons."
+version: 0.1.4
 
 homepage: https://github.com/m-uzair000/social_auth_btns
 repository: https://github.com/m-uzair000/social_auth_btns
@@ -22,6 +21,7 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/social/
+    - assets/icons/
+
 
 license: MIT

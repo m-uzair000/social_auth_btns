@@ -25,59 +25,270 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
+              /// Google Btns
               SocialButtonWidget(
                 social: Social.google,
-                btnType: BtnType.rectangle,      // Shows label
+                btnType: BtnType.rectangle,
+                // btnStyle: BtnStyle.lightOutline,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.round,
+                // btnStyle: BtnStyle.lightOutline,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.circle,
+                // btnStyle: BtnStyle.lightOutline,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.square,
+                // btnStyle: BtnStyle.lightOutline,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.rectangle,
+                btnStyle: BtnStyle.darkOutline,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.rectangle,
+                btnStyle: BtnStyle.darkFill,
+                onTap: () {
+                  print('Google Sign-In button tapped!');
+                },
+              ),
+              const SizedBox(height: 20),
+              SocialButtonWidget(
+                social: Social.google,
+                btnType: BtnType.rectangle,
                 btnStyle: BtnStyle.lightFill,
                 onTap: () {
                   print('Google Sign-In button tapped!');
                 },
               ),
               const SizedBox(height: 20),
-              SocialButtonWidget(
-                social: Social.google,
-                btnType: BtnType.rectangle,      // Shows label
-                btnStyle: BtnStyle.lightOutline,
-                onTap: () {
-                  print('Google Sign-In button tapped!');
-                },
-              ),
-              const SizedBox(height: 20),
-              SocialButtonWidget(
-                social: Social.apple,
-                btnType: BtnType.circle,         // No label
-                btnStyle: BtnStyle.darkOutline,
-                onTap: () {
-                  print('Apple Sign-In button tapped!');
-                },
-              ),
-              const SizedBox(height: 20),
-              SocialButtonWidget(
-                social: Social.apple,
-                btnType: BtnType.circle,         // No label
-                btnStyle: BtnStyle.darkFill,
-                onTap: () {
-                  print('Apple Sign-In button tapped!');
-                },
-              ),
-              const SizedBox(height: 20),
-              SocialButtonWidget(
-                social: Social.facebook,
-                btnType: BtnType.iconOnly,       // No label
-                btnStyle: BtnStyle.darkFill,
-                onTap: () {
-                  print('Facebook Sign-In button tapped!');
-                },
-              ),
-              const SizedBox(height: 20),
-              SocialButtonWidget(
-                social: Social.twitter,
-                btnType: BtnType.square,         // No label
-                btnStyle: BtnStyle.lightOutline,
-                onTap: () {
-                  print('Twitter Sign-In button tapped!');
-                },
-              ),
+
+              /// Apple Btns
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.rectangle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.round,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.circle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.square,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.apple,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.lightFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              //
+
+              /// Facebook Btns
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.rectangle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.round,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.circle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.square,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.facebook,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.lightFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              //
+              //
+              //
+
+              /// Twitter Btns
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.rectangle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.round,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.circle,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.square,
+              //   // btnStyle: BtnStyle.lightOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkOutline,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.darkFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
+              // SocialButtonWidget(
+              //   social: Social.twitter,
+              //   btnType: BtnType.rectangle,
+              //   btnStyle: BtnStyle.lightFill,
+              //   onTap: () {
+              //     print('Google Sign-In button tapped!');
+              //   },
+              // ),
+              // const SizedBox(height: 20),
             ],
           ),
         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:social_auth_btns/generated/assets.dart';
 import 'package:social_auth_btns/social_auth_btns.dart';
+import 'assets.dart';
 
 final List<SocialButtonModel> socialButtons = [
   SocialButtonModel(
